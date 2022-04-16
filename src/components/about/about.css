@@ -1,0 +1,25 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about-me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(10deg, transparent, rgb(111, 152, 190), transparent);
+  display: grid;
+  place-items: center;
+}
+
+.about-me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about-me-image:hover {
+  transform: rotate(0);
+}
