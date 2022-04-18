@@ -19,8 +19,8 @@ const About = () => {
 
         <div className="about-content">
           <div className="about-cards">
-            <MdOutlineWorkOutline className='about-icon'/>
             <article className='about-card'>
+              <MdOutlineWorkOutline className='about-icon'/>
               <h5>Experience</h5>
               <small></small>
             </article>
@@ -33,10 +33,10 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem distinctio, sequi dolorum ea eligendi fugit? Saepe, quos commodi? Minus doloremque quas porro soluta perspiciatis recusandae laborum atque totam quisquam obcaecati!
+          Hi, I'm Minja. I recently finished a full-stack web development bootcamp at Le Wagon, London. I've learned so much during 9 intense weeks at the bootcamp. The thing I love the most about coding is that I'm still discovering and learning new stuff everyday! I'm currently looking for a junior web development job and I'm also working on my new projects.
           </p>
 
-          <a href="#contact" classNmae='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
 
