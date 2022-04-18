@@ -8,7 +8,7 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(10deg, transparent, rgb(111, 152, 190), transparent);
+  background: linear-gradient(10deg, transparent, var(--color-primary), transparent);
   display: grid;
   place-items: center;
 }
