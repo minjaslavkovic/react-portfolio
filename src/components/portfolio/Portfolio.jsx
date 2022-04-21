@@ -16,6 +16,7 @@ const Portfolio = () => {
             <img src={IMG1} alt="BandMates" />
           </div>
           <h3>BandMates</h3>
+          <h5>Mobile app for musicians who want to meet other musicians and start a band (best viewed in chrome inspector, Dimensions: iPhone XR).</h5>
           <div className="portfolio-item-cta">
             <a href="https://github.com/minjaslavkovic/bandmates" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
             <a href="http://www.band-mates.com/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
@@ -26,6 +27,7 @@ const Portfolio = () => {
             <img src={IMG2} alt="VenuLet" />
           </div>
           <h3>VenuLet</h3>
+          <h5>Airbnb clone project where you can book and list a venue for parties, birthdays and other events.</h5>
           <div className="portfolio-item-cta">
             <a href="https://github.com/minjaslavkovic/VenuLet" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
             <a href="http://airbnb-catherinejex.herokuapp.com/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
@@ -36,6 +38,7 @@ const Portfolio = () => {
             <img src={IMG3} alt="Watch List" />
           </div>
           <h3>Watch List</h3>
+          <h5>Movie web page that saves all your favourite movies in one place.</h5>
           <div className="portfolio-item-cta">
             <a href="https://github.com/minjaslavkovic/rails-watch-list" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
             <a href="https://watch-list-minja-slavkovic.herokuapp.com/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
