@@ -22,7 +22,7 @@ const Experience = () => {
             </article>
             <article className='experience-details'>
               <BsShieldFillCheck className='experience-details-icon'/>
-              <h4>JavScript</h4>
+              <h4>JavaScript</h4>
             </article>
             <article className='experience-details'>
               <BsShieldFillCheck className='experience-details-icon'/>
@@ -45,6 +45,10 @@ const Experience = () => {
             <article className='experience-details'>
               <BsShieldFillCheck className='experience-details-icon'/>
               <h4>Ruby on Rails</h4>
+            </article>
+            <article className='experience-details'>
+              <BsShieldFillCheck className='experience-details-icon'/>
+              <h4>JavaScript</h4>
             </article>
             <article className='experience-details'>
               <BsShieldFillCheck className='experience-details-icon'/>

@@ -1,8 +1,8 @@
-.container-portfolio {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
-  /* gap: 2.5rem; */
-}
+/* .container-portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+} */
 
 .portfolio-item {
   background: var(--color-bg-variant);
