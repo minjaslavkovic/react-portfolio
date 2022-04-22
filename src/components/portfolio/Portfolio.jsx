@@ -38,7 +38,7 @@ const Portfolio = () => {
             <img src={IMG3} alt="Watch List" />
           </div>
           <h3>Watch List</h3>
-          <h5>Movie web page that saves all your favourite movies in one place.</h5>
+          <h5>Movie app to save all your favourite movies in one place and sort them into lists that other people can review as well.</h5>
           <div className="portfolio-item-cta">
             <a href="https://github.com/minjaslavkovic/rails-watch-list" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
             <a href="https://watch-list-minja-slavkovic.herokuapp.com/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>

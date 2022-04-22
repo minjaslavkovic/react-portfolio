@@ -1,8 +1,8 @@
-/* .container-portfolio {
+.container-portfolio {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
-} */
+}
 
 .portfolio-item {
   background: var(--color-bg-variant);
@@ -37,4 +37,19 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .container-portfolio {
+    grid-template-columns: 1fr 1fr;
+    grid: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-portfolio {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
