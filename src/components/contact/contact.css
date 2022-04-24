@@ -53,3 +53,17 @@ input, textarea {
   resize: none;
   color: var(--white);
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .container.contact-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.contact-container {
+    width: var(--container-width-sm);
+  }
+}
