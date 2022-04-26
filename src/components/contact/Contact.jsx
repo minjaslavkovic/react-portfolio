@@ -2,8 +2,24 @@ import React from 'react'
 import './contact.css'
 import {FiMail} from 'react-icons/fi'
 import {MdPhoneIphone} from 'react-icons/md'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mohkvoa', 'template_zhkiiyy', form.current, 'uO-6U1MxSBO2RzP8S')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+    e.target.reset()
+  }
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -24,7 +40,7 @@ const Contact = () => {
             <a href="mailto:minja.slavkovic@gmail.com" target='_blank' rel="noopener noreferrer">Contact</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="text" name="email" placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
