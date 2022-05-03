@@ -4,12 +4,13 @@ import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import {BsFacebook} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
+import IMG from '../../assets/logo_transparent.png'
 
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer-logo'>MS</a>
+      <img src={IMG} alt="" className='footer-logo' />
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -19,7 +20,7 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <div className="footer-scoails">
+      <div className="footer-socials">
         <a href="https://linkedin.com"><BsLinkedin/></a>
         <a href="https://github.com"><BsGithub/></a>
         <a href="https://facebook.com"><BsFacebook/></a>

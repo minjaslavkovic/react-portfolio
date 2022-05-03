@@ -4,7 +4,6 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
-  padding-bottom: 8rem;
 }
 
 footer a {
@@ -12,8 +11,8 @@ footer a {
 }
 
 .footer-logo {
-  font-size: 2rem;
-  font-weight: 500;
+  width: 10rem;
+  height: 10rem;
   margin-bottom: 2rem;
   display: inline-block;
 }
@@ -25,3 +24,20 @@ footer a {
   gap: 2rem;
   margin: 0 auto 3rem;
 }
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  font-size: larger;
+}
+
+/* .footer-socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+} */
